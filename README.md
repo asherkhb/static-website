@@ -10,14 +10,16 @@ Use the `aws_static_website` module to provision a website on AWS using S3 & Rou
 
 ```hcl
 module "my_website" {
-    source = "./aws_static_website"
-    address = "example.com"
+  source = "./aws_static_website"
+  address = "example.com"
 }
 ```
 
 ## Contributing
 
-Contributions are welcome! To keep code consistant, please use `terraform fmt`.
+Contributions are welcome! 
+
+Contribute via PR. To keep code consistant, please use `terraform fmt` _before_ opening a PR.
 
 ## Help?
 
